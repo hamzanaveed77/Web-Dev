@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   
+   body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+   }
+   .skills{
+    margin: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-top: 30px;
+
+   }
+
+   .skills li{
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+   }
+   img {
+    border-radius: 50%;
+   }
+   .contact-details{
+    margin: 2px;
+    padding: 2px;
+   }
+   .contact-details p{
+    margin: 2px;
+    padding: 2px;
+    margin-top: 5px;
+   } 
+   
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+   .left {
+    flex: 1;
+    padding: 30px;
+    background-color: #f5f5f5;
+   }
+   
+   .right {
+    flex: 2;
+    padding: 30px;
+    background-color: rgb(201, 200, 185);
+    width: 70%;
+    }
+    .job li{
+        margin: 2px;
+        padding: 5px;
+    }
+    .education{
+        padding-top: 30px;
+    }
+    .experience{
+        padding-top: 30px;
+    }
+
+    .Outer{
+        width: 80%;
+        padding-left: 20%;
+        height: 20%;
+        
+    }
+    .school{
+        margin: 5px;
+        padding: 5px;
+    }
